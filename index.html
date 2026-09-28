@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahil Sabale | Software Engineer & Developer Portfolio</title>
+  <meta name="description" content="Formal portfolio and resume of Sahil Sabale - Software Engineer featuring work experience, technical projects, skills, and contact information.">
+  <meta name="author" content="Sahil Sabale">
+
+  <!-- Open Graph / Meta for Social Previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sahil Sabale | Software Engineer Portfolio">
+  <meta property="og:description" content="Formal portfolio featuring work experience, projects, technical skills, and contact links.">
+  <meta property="og:site_name" content="Sahil Sabale Portfolio">
+
+  <!-- Google Fonts: Inter font for clean, formal, professional typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Navigation Bar -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo" aria-label="Home">Sahil Sabale</a>
+      
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn btn-secondary btn-icon" aria-label="Toggle dark/light mode" title="Toggle theme">
+          <svg class="icon icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button id="mobile-menu-toggle" class="btn btn-secondary btn-icon mobile-only" aria-label="Toggle mobile menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <!-- Hero / Profile Intro Section -->
+    <section class="section hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-pretitle">Curriculum Vitae &amp; Portfolio</p>
+          <h1 class="hero-title">Sahil Sabale</h1>
+          <p class="hero-subtitle">Software Engineer &amp; Full-Stack Developer</p>
+          <p class="hero-description">
+            Passionate software developer focused on designing scalable web applications, robust backends, and clean user interfaces. Dedicated to rigorous software craftsmanship, reliability, and continuous learning.
+          </p>
+          
+          <div class="hero-quick-meta">
+            <span class="meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              India (Available for Remote &amp; On-site)
+            </span>
+            <span class="meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+              sahilsabale@example.com
+            </span>
+          </div>
+
+          <!-- Direct Links to Platforms -->
+          <div class="hero-actions">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              LinkedIn Profile
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Contact Me
+            </a>
+            <a href="resume.pdf" class="btn btn-outline" download="Sahil_Sabale_Resume.pdf" title="Download CV in PDF format">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Download CV (PDF)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section-bordered">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hello, I am <strong>Sahil Sabale</strong>. I am an engineer with a foundational background in computer science and full-stack software development. I specialize in building dependable, maintainable, and high-performance digital systems.
+            </p>
+            <p>
+              My professional focus revolves around web engineering, database architecture, and RESTful API systems. I value writing clear, self-documenting code, adopting modern development standards, and delivering pragmatic solutions that solve real-world problems.
+            </p>
+            <p>
+              I am continually refining my domain knowledge across software architecture, performance optimization, and distributed systems.
+            </p>
+          </div>
+          <div class="about-sidebar">
+            <div class="info-card">
+              <h3 class="info-card-title">Professional Details</h3>
+              <ul class="formal-info-list">
+                <li><span class="info-label">Name:</span> <span class="info-value">Sahil Sabale</span></li>
+                <li><span class="info-label">Title:</span> <span class="info-value">Software Engineer</span></li>
+                <li><span class="info-label">Specialization:</span> <span class="info-value">Full-Stack Web Development</span></li>
+                <li><span class="info-label">Status:</span> <span class="info-value status-available">Open to opportunities</span></li>
+                <li><span class="info-label">Languages:</span> <span class="info-value">English, Hindi, Marathi</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="section section-bordered">
+      <div class="container">
+        <div class="section-header-row">
+          <h2 class="section-title">Work Experience</h2>
+          <span class="section-caption">Chronological history of professional engagements</span>
+        </div>
+
+        <div class="experience-list">
+          <!-- Experience Item 1 -->
+          <article class="experience-item">
+            <div class="exp-header">
+              <div class="exp-title-block">
+                <h3 class="exp-role">Software Development Engineer</h3>
+                <div class="exp-company-group">
+                  <span class="exp-company">Tech Solutions Inc.</span>
+                  <span class="exp-separator">•</span>
+                  <span class="exp-location">Pune, India (Hybrid)</span>
+                </div>
+              </div>
+              <div class="exp-date">Aug 2024 &ndash; Present</div>
+            </div>
+            <div class="exp-body">
+              <ul class="exp-responsibilities">
+                <li>Engineered and maintained mission-critical web application modules using modern JavaScript frameworks and robust backend services.</li>
+                <li>Designed and deployed performant REST APIs, optimizing response latency by 35% through indexing and query caching.</li>
+                <li>Collaborated in an Agile development environment, participating in daily standups, code reviews, and sprint planning sessions.</li>
+                <li>Implemented unit and integration tests with 85%+ code coverage to prevent regression bugs in production releases.</li>
+              </ul>
+              <div class="tag-group">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience Item 2 -->
+          <article class="experience-item">
+            <div class="exp-header">
+              <div class="exp-title-block">
+                <h3 class="exp-role">Software Engineering Intern</h3>
+                <div class="exp-company-group">
+                  <span class="exp-company">Digital Systems Lab</span>
+                  <span class="exp-separator">•</span>
+                  <span class="exp-location">Mumbai, India</span>
+                </div>
+              </div>
+              <div class="exp-date">Jan 2024 &ndash; Jul 2024</div>
+            </div>
+            <div class="exp-body">
+              <ul class="exp-responsibilities">
+                <li>Assisted in developing client-facing dashboard components adhering strictly to UX guidelines and accessibility specifications.</li>
+                <li>Assisted senior engineers in refactoring legacy relational database schemas into optimized normalized structures.</li>
+                <li>Authored technical documentation, API specifications, and onboarding guides for prospective team members.</li>
+              </ul>
+              <div class="tag-group">
+                <span class="tag">HTML5 / CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">REST APIs</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-bordered">
+      <div class="container">
+        <div class="section-header-row">
+          <h2 class="section-title">Projects</h2>
+          <span class="section-caption">Selected engineering and software development projects</span>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-type">Full-Stack Application</div>
+              <h3 class="project-title">Enterprise Task &amp; Workflow Manager</h3>
+            </div>
+            <p class="project-description">
+              A comprehensive task management platform featuring real-time collaborative boards, granular role-based access control (RBAC), and automated email notifications for project milestones.
+            </p>
+            <div class="project-meta">
+              <div class="tag-group">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Docker</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  Repository
+                </a>
+                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="link-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-type">Backend &amp; API Service</div>
+              <h3 class="project-title">High-Throughput Analytics Ingestion Pipeline</h3>
+            </div>
+            <p class="project-description">
+              Lightweight telemetry data ingestion service designed to process high-frequency event payloads, batch write into time-series storage, and generate analytical rollups.
+            </p>
+            <div class="project-meta">
+              <div class="tag-group">
+                <span class="tag">Go / Golang</span>
+                <span class="tag">Redis</span>
+                <span class="tag">TimescaleDB</span>
+                <span class="tag">REST API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-type">E-Commerce &amp; Payments</div>
+              <h3 class="project-title">Secure Checkout &amp; Inventory Engine</h3>
+            </div>
+            <p class="project-description">
+              Modular e-commerce service implementing transactional idempotency, automated webhook verification, and atomic inventory reduction preventing double-allocation.
+            </p>
+            <div class="project-meta">
+              <div class="tag-group">
+                <span class="tag">Node.js</span>
+                <span class="tag">Stripe API</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Jest</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  Repository
+                </a>
+                <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="link-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-type">Developer Tools</div>
+              <h3 class="project-title">Command Line Code Scaffolding Tool</h3>
+            </div>
+            <p class="project-description">
+              Cross-platform CLI utility to rapidly initialize enterprise-ready microservice templates with built-in linting, CI/CD configuration, and test harnesses.
+            </p>
+            <div class="project-meta">
+              <div class="tag-group">
+                <span class="tag">TypeScript</span>
+                <span class="tag">Node CLI</span>
+                <span class="tag">npm package</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  Repository
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section section-bordered">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-cat-title">Programming Languages</h3>
+            <ul class="skill-list">
+              <li>JavaScript (ES6+)</li>
+              <li>TypeScript</li>
+              <li>Python</li>
+              <li>Java / C++</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">Frontend Technologies</h3>
+            <ul class="skill-list">
+              <li>HTML5 / Semantic Markup</li>
+              <li>CSS3 / Responsive Design</li>
+              <li>React.js / Next.js</li>
+              <li>DOM Manipulation &amp; Fetch API</li>
+              <li>Accessibility (a11y) standards</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">Backend &amp; Databases</h3>
+            <ul class="skill-list">
+              <li>Node.js / Express.js</li>
+              <li>RESTful API Architecture</li>
+              <li>PostgreSQL / MySQL</li>
+              <li>MongoDB</li>
+              <li>Redis (Caching)</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">DevOps &amp; Engineering Tools</h3>
+            <ul class="skill-list">
+              <li>Git &amp; GitHub (Version Control)</li>
+              <li>Docker / Containerization</li>
+              <li>Linux / Bash Shell Scripting</li>
+              <li>Netlify / Vercel / Cloud Hosting</li>
+              <li>Postman / API Testing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Certifications Section -->
+    <section id="education" class="section section-bordered">
+      <div class="container">
+        <h2 class="section-title">Education &amp; Credentials</h2>
+        <div class="education-list">
+          <article class="education-item">
+            <div class="edu-header">
+              <div class="edu-degree-group">
+                <h3 class="edu-degree">Bachelor of Engineering in Computer Engineering</h3>
+                <span class="edu-institution">University of Mumbai / Savitribai Phule Pune University</span>
+              </div>
+              <div class="edu-date">2020 &ndash; 2024</div>
+            </div>
+            <p class="edu-notes">
+              Graduated with First Class with Distinction. Relevant Coursework: Data Structures &amp; Algorithms, Database Management Systems, Operating Systems, Computer Networks, Software Engineering.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect & External Platforms Section -->
+    <section id="contact" class="section section-bordered">
+      <div class="container">
+        <h2 class="section-title">Contact &amp; Profiles</h2>
+        <p class="section-lead">
+          I am actively available for full-time engineering roles, technical consultations, or collaborative inquiries. Please reach out through any of the verified channels below.
+        </p>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Card -->
+          <div class="contact-channels">
+            <h3 class="channel-heading">Professional Networks</h3>
+            
+            <ul class="channel-list">
+              <li class="channel-item">
+                <span class="channel-label">Email Address</span>
+                <div class="channel-action-row">
+                  <a href="mailto:sahilsabale@example.com" class="channel-link" id="email-address">sahilsabale@example.com</a>
+                  <button id="copy-email-btn" class="btn btn-sm btn-outline" type="button" aria-label="Copy email address">
+                    Copy
+                  </button>
+                </div>
+              </li>
+
+              <li class="channel-item">
+                <span class="channel-label">LinkedIn</span>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  linkedin.com/in/sahil-sabale &nearr;
+                </a>
+              </li>
+
+              <li class="channel-item">
+                <span class="channel-label">GitHub</span>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  github.com/sahil-sabale &nearr;
+                </a>
+              </li>
+
+              <li class="channel-item">
+                <span class="channel-label">LeetCode / Problem Solving</span>
+                <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  leetcode.com/u/sahil-sabale &nearr;
+                </a>
+              </li>
+
+              <li class="channel-item">
+                <span class="channel-label">X / Twitter</span>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  x.com/sahil_sabale &nearr;
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Formal Netlify-Compatible Contact Form -->
+          <div class="contact-form-wrapper">
+            <h3 class="channel-heading">Send a Formal Message</h3>
+            <p class="form-subtext">This form is pre-configured for Netlify Forms. Submissions go straight to your dashboard.</p>
+            
+            <form name="portfolio-contact" method="POST" data-netlify="true" class="formal-form">
+              <!-- Hidden input for Netlify Form handling -->
+              <input type="hidden" name="form-name" value="portfolio-contact">
+
+              <div class="form-group">
+                <label for="form-name">Your Full Name <span class="required">*</span></label>
+                <input type="text" id="form-name" name="name" required placeholder="e.g. Jane Doe" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">Your Work Email <span class="required">*</span></label>
+                <input type="email" id="form-email" name="email" required placeholder="name@company.com" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject">Subject <span class="required">*</span></label>
+                <input type="text" id="form-subject" name="subject" required placeholder="Regarding Software Engineering Role / Project" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message <span class="required">*</span></label>
+                <textarea id="form-message" name="message" rows="5" required placeholder="Please write your message here..." class="form-control"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                Send Formal Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p>&copy; <span id="current-year">2026</span> Sahil Sabale. All rights reserved.</p>
+        <p class="footer-note">Formal portfolio built with semantic HTML5, CSS3, and JavaScript. Hosted on Netlify.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#about" class="footer-top-link">Back to Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
