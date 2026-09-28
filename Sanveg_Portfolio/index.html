@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanveg Nimgade | Computer Science Engineer Portfolio</title>
+  <meta name="description" content="Formal portfolio of Sanveg Nimgade - Computer Science student at PICT, Pune (Current CGPA: 9.565/10). Featuring research experience, technical projects, and skills.">
+  <meta name="author" content="Sanveg Nimgade">
+
+  <!-- Open Graph / Meta for Social Previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sanveg Nimgade | Computer Science Engineer Portfolio">
+  <meta property="og:description" content="Formal portfolio featuring projects (PetConnect, Doctor Appointment System, LinguaLink), research experience at PICT, skills, and education.">
+  <meta property="og:site_name" content="Sanveg Nimgade Portfolio">
+
+  <!-- Google Fonts: Inter font for clean, formal, professional typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Navigation Bar -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="brand-logo" aria-label="Home">Sanveg Nimgade</a>
+      
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn btn-secondary btn-icon" aria-label="Toggle dark/light mode" title="Toggle theme">
+          <svg class="icon icon-sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon icon-moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button id="mobile-menu-toggle" class="btn btn-secondary btn-icon mobile-only" aria-label="Toggle mobile menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <!-- Hero / Profile Intro Section -->
+    <section class="section hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-pretitle">Curriculum Vitae &amp; Portfolio</p>
+          <h1 class="hero-title">Sanveg Nimgade</h1>
+          <p class="hero-subtitle">Computer Science Engineer &amp; Full-Stack Developer | PICT Pune</p>
+          <p class="hero-description">
+            Computer Science student at <strong>Pune Institute of Computer Technology (PICT)</strong> (Current CGPA: <strong>9.565 / 10</strong>). Experienced in building microservice architectures, full-stack web platforms, real-time communications (WebRTC, Stream SDK, Socket.io), and machine learning pipelines.
+          </p>
+          
+          <div class="hero-quick-meta">
+            <span class="meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              Pune, Maharashtra, India
+            </span>
+            <span class="meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+              <a href="mailto:sanvegnimgade444@gmail.com" class="meta-link">sanvegnimgade444@gmail.com</a>
+            </span>
+          </div>
+
+          <!-- Direct Links to Platforms from Resume -->
+          <div class="hero-actions">
+            <a href="https://github.com/sanveg-nimgade" target="_blank" rel="noopener noreferrer" class="btn btn-primary" title="Sanveg Nimgade GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://leetcode.com/sanveg-nimgade" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" title="Sanveg Nimgade LeetCode Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .666-1.607 2.6 2.6 0 0 1 .388-.334l4.981-5.334 4.993-5.35a1.38 1.38 0 0 0-.97-2.355zM17.962 10.97a1.378 1.378 0 0 0-1.378 1.378v4.321a1.378 1.378 0 1 0 2.756 0v-4.321a1.378 1.378 0 0 0-1.378-1.378z"/></svg>
+              LeetCode
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section-bordered">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hello, I am <strong>Sanveg Nimgade</strong>, pursuing my Bachelor of Engineering in Computer Science at the <strong>Pune Institute of Computer Technology (PICT)</strong>, Pune (Current CGPA: <strong>9.565 / 10</strong>).
+            </p>
+            <p>
+              I have developed disciplined problem-solving and algorithmic fundamentals by solving <strong>300+ Data Structures &amp; Algorithms problems</strong> across online coding platforms. Through this practice, I have built strong command in languages including <strong>C++, Java, JavaScript, and SQL</strong>.
+            </p>
+            <p>
+              My engineering experience includes building 3-tier microservice platforms with React 19/Vite, Node.js/Express, and Python Flask, developing NLP pipelines using scikit-learn, TF-IDF, and NLTK, and creating real-time communications platforms integrating WebRTC, Stream SDK, and Socket.io.
+            </p>
+          </div>
+          <div class="about-sidebar">
+            <div class="info-card">
+              <h3 class="info-card-title">Professional Summary</h3>
+              <ul class="formal-info-list">
+                <li><span class="info-label">Name:</span> <span class="info-value">Sanveg Nimgade</span></li>
+                <li><span class="info-label">Institution:</span> <span class="info-value">PICT, Pune</span></li>
+                <li><span class="info-label">Degree:</span> <span class="info-value">B.E. Computer Science</span></li>
+                <li><span class="info-label">Current CGPA:</span> <span class="info-value">9.565 / 10</span></li>
+                <li><span class="info-label">DSA Solved:</span> <span class="info-value">300+ Problems</span></li>
+                <li><span class="info-label">Email:</span> <span class="info-value">sanvegnimgade444@gmail.com</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-bordered">
+      <div class="container">
+        <div class="section-header-row">
+          <h2 class="section-title">Education</h2>
+          <span class="section-caption">Academic qualifications and institutional history</span>
+        </div>
+
+        <div class="education-list">
+          <!-- PICT -->
+          <article class="education-item">
+            <div class="edu-header">
+              <div class="edu-degree-group">
+                <h3 class="edu-degree">Bachelor of Engineering in Computer Science</h3>
+                <span class="edu-institution">Pune Institute of Computer Technology (PICT), Pune</span>
+              </div>
+              <div class="edu-date">2023 &ndash; Present</div>
+            </div>
+            <p class="edu-notes">
+              <strong>Current CGPA: 9.565 / 10</strong>
+            </p>
+          </article>
+
+          <!-- Class XII -->
+          <article class="education-item">
+            <div class="edu-header">
+              <div class="edu-degree-group">
+                <h3 class="edu-degree">Class XII (CBSE)</h3>
+                <span class="edu-institution">Bhavans B.P. Vidya Mandir, Nagpur</span>
+              </div>
+              <div class="edu-date">2021 &ndash; 2022</div>
+            </div>
+            <p class="edu-notes">
+              <strong>Percentage: 79%</strong>
+            </p>
+          </article>
+
+          <!-- Class X -->
+          <article class="education-item">
+            <div class="edu-header">
+              <div class="edu-degree-group">
+                <h3 class="edu-degree">Class X (CBSE)</h3>
+                <span class="edu-institution">Sri Guru Harikishan Public School, Nagpur</span>
+              </div>
+              <div class="edu-date">2019 &ndash; 2020</div>
+            </div>
+            <p class="edu-notes">
+              <strong>Percentage: 93.20%</strong>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="section section-bordered">
+      <div class="container">
+        <div class="section-header-row">
+          <h2 class="section-title">Experience</h2>
+          <span class="section-caption">Professional &amp; research engagements</span>
+        </div>
+
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="exp-header">
+              <div class="exp-title-block">
+                <h3 class="exp-role">Research Intern</h3>
+                <div class="exp-company-group">
+                  <span class="exp-company">Pune Institute of Computer Technology (PICT)</span>
+                  <span class="exp-separator">•</span>
+                  <span class="exp-location">Pune, India</span>
+                </div>
+              </div>
+              <div class="exp-date">Jan 2026 &ndash; Apr 2026</div>
+            </div>
+            <div class="exp-body">
+              <ul class="exp-responsibilities">
+                <li>Built a 3-tier microservice platform featuring a React 19/Vite frontend, Node.js/Express API Gateway, and a Python Flask ML engine for real-time resume analysis and job matching.</li>
+                <li>Engineered an NLP pipeline using scikit-learn TF-IDF vectorization, pre-trained classification models, and NLTK, achieving blended ATS match scoring via cosine similarity and keyword overlap.</li>
+                <li>Developed an automated PDF parser using pdfminer3, PyPDF2, and custom RegEx heuristics to extract candidate metadata, evaluate structural ATS completeness, and generate domain skill gap reports across 5 tech fields.</li>
+                <li>Built a responsive React dashboard supporting drag-and-drop PDF uploads, role category predictions, interactive structural audit scores, and curated upskilling recommendations.</li>
+              </ul>
+              <div class="tag-group">
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">scikit-learn</span>
+                <span class="tag">TF-IDF</span>
+                <span class="tag">NLTK</span>
+                <span class="tag">PyPDF2</span>
+                <span class="tag">React.js</span>
+                <span class="tag">Vite</span>
+                <span class="tag">Tailwind CSS</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-bordered">
+      <div class="container">
+        <div class="section-header-row">
+          <h2 class="section-title">Projects</h2>
+          <span class="section-caption">Technical implementations and software projects</span>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: PetConnect -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-type">Full-Stack MERN Platform</div>
+              <h3 class="project-title">PetConnect &ndash; Full-Stack MERN Platform</h3>
+            </div>
+            <p class="project-description">
+              Built a multi-role pet platform for Users, Caretakers, and Admins with JWT/Google OAuth, RBAC, and OTP-based password recovery. Engineered pet marketplace, caretaker bookings, admin moderation, and Cloudinary image management, with Razorpay payments for transactions and premium subscriptions. Developed real-time chat and notifications using Socket.io and integrated Google Gemini AI with custom rate limiting for usage quotas. Automated scheduled emails and background tasks using Nodemailer and Cron jobs.
+            </p>
+            <div class="project-meta">
+              <div class="tag-group">
+                <span class="tag">React.js</span>
+                <span class="tag">Vite</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Socket.io</span>
+                <span class="tag">Razorpay</span>
+                <span class="tag">Gemini AI</span>
+                <span class="tag">Cloudinary</span>
+                <span class="tag">Nodemailer</span>
+                <span class="tag">Cron Jobs</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/sanveg-nimgade" target="_blank" rel="noopener noreferrer" class="link-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Doctor Appointment Booking System -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-type">Full-Stack Web Application</div>
+              <h3 class="project-title">Doctor Appointment Booking System</h3>
+            </div>
+            <p class="project-description">
+              Developed a full-stack doctor appointment booking system using React.js, Node.js, Express.js, and MongoDB. Implemented user authentication and appointment scheduling functionality. Designed features for booking, managing, and canceling appointments with doctors. Built a responsive user interface for seamless user experience across devices.
+            </p>
+            <div class="project-meta">
+              <div class="tag-group">
+                <span class="tag">React.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/sanveg-nimgade" target="_blank" rel="noopener noreferrer" class="link-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: LinguaLink -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-type">Real-Time Communication Platform</div>
+              <h3 class="project-title">LinguaLink &ndash; Real-Time Language Exchange</h3>
+            </div>
+            <p class="project-description">
+              Built a fully functional Language Exchange Platform featuring Real-Time Text and Video communication. Implemented 1-on-1 and group video calls with screen sharing, recording, typing indicators, emoji reactions, and chat using Stream SDK (Learnt SFU vs MCU scaling). Enabled secure JWT Authentication and offered 32+ unique UI themes to enhance personalization. Evaluated alternatives (raw WebRTC + Socket.IO, Twilio/Agora) and chose Stream SDK to leverage built-in signaling, TURN/STUN servers, and scalability.
+            </p>
+            <div class="project-meta">
+              <div class="tag-group">
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">React.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Stream SDK</span>
+                <span class="tag">WebRTC</span>
+                <span class="tag">Socket.io</span>
+                <span class="tag">JWT</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/sanveg-nimgade" target="_blank" rel="noopener noreferrer" class="link-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="section section-bordered">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-cat-title">Languages</h3>
+            <ul class="skill-list">
+              <li>C++</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">Frontend</h3>
+            <ul class="skill-list">
+              <li>React.js</li>
+              <li>Redux Toolkit</li>
+              <li>Vite</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">Backend</h3>
+            <ul class="skill-list">
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>REST APIs</li>
+              <li>JWT Authentication</li>
+              <li>Socket.io</li>
+              <li>WebRTC</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">Database</h3>
+            <ul class="skill-list">
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-cat-title">Core Subjects</h3>
+            <ul class="skill-list">
+              <li>Data Structures &amp; Algorithms</li>
+              <li>Core Java</li>
+              <li>OOP</li>
+              <li>DBMS</li>
+              <li>OS</li>
+              <li>CNS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem Solving & Extracurricular Activities Section -->
+    <section class="section section-bordered">
+      <div class="container">
+        <h2 class="section-title">Problem Solving &amp; Extracurricular Activities</h2>
+        <div class="about-grid">
+          <div class="info-card">
+            <h3 class="info-card-title">Problem Solving</h3>
+            <p style="font-size: 1.05rem; font-weight: 500; color: var(--text-primary); margin-bottom: 0.5rem;">
+              <strong>Solved 300+ Data Structures and Algorithms problems</strong> across coding platforms.
+            </p>
+          </div>
+
+          <div class="info-card">
+            <h3 class="info-card-title">Extracurricular Activities</h3>
+            <ul class="skill-list" style="margin-top: 0.25rem;">
+              <li style="margin-bottom: 0.5rem;">
+                <strong>PICT IEEE Student Branch Member.</strong>
+              </li>
+              <li>
+                <strong>Volunteered for Credenz Group Day.</strong>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p>&copy; <span id="current-year">2026</span> Sanveg Nimgade. All rights reserved.</p>
+        <p class="footer-note">Formal portfolio built for Sanveg Nimgade (PICT Pune) &bull; Ready for Netlify Hosting.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#about" class="footer-top-link">Back to Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
