@@ -356,6 +356,16 @@ a:hover {
   gap: 0.4rem;
 }
 
+.meta-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.meta-link:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
